@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=PT+Serif&family=Roboto+Mono:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=PT+Serif&family=Roboto&family=Roboto+Mono:wght@200;300&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #1d3354;
+    padding: 10px;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+div {
+    display: block;
+}
+
+main {
+    background-color: #ecf9ff;
+}
+
+footer {
+    padding: 3%;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    background-color: #6096b4;
+}
+
+.table-one {
+    border-collapse: collapse;
+    border: 2px solid #1f4068;
+    letter-spacing: 0.8px;
+    font-size: 0.8rem;
+    vertical-align: middle;
+    width: 100%;
+    /* margin-bottom: 100px; */
+}
+
+td,
+th {
+    border: 1px solid #1f4068;
+    padding: 0.6rem;
+    height: 1px;
+    width: 1rem;
+}
+
+tr:nth-child(even) td {
+    background-color: #dad4c4;
+}
+
+tr:nth-child(odd) td {
+    background-color: #dadac0;
+}
+
+.Destino {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    /* margin: 0; */
+    font-weight: bold;
+    text-align: center;
+}
+
+.mini-des {
+    font-family: "Mortion Mono", monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-display: inherit;
+    text-align: center;
+}
+
+.travel-description p {
+    font-family: "Roboto", sans-serif;
+    /* color: whitesmoke; */
+}
+
+.fotos-city {
+    /* width: 100px; */
+    align-items: center;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.iframes-links,
+.iframes-links2 {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.agencias {
+    margin: auto;
+    width: 700px;
+    height: 600px;
+}
+
+.des-left {
+    font-family: "Poppins", sans-serif;
+    margin-left: 20%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.des-right {
+    font-family: "Poppins", sans-serif;
+    margin-left: 72%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.des-agencias {
+    padding: 100px 100px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
